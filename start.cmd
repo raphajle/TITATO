@@ -153,6 +153,19 @@ IF %tc%%c5%%np% EQU 1X4 set np=3
 IF %tc%%c5%%np% EQU 1X6 set np=7
 IF %tc%%c5%%np% EQU 1X8 set np=9
 
+IF %tc%%c1%%c5%%c9%%np% EQU 3XOX3 set np=4
+IF %tc%%c1%%c5%%c9%%np% EQU 3XOX7 set np=8
+IF %tc%%c3%%c5%%c7%%np% EQU 3XOX1 set np=2
+IF %tc%%c3%%c5%%c7%%np% EQU 3XOX9 set np=6
+
+IF %tc%%c4%%c3%%c1% EQU 3XX_ set np=1
+IF %tc%%c2%%c7%%c1% EQU 3XX_ set np=1
+IF %tc%%c6%%c1%%c3% EQU 3XX_ set np=3
+IF %tc%%c2%%c9%%c3% EQU 3XX_ set np=3
+IF %tc%%c6%%c7%%c9% EQU 3XX_ set np=9
+IF %tc%%c8%%c3%%c9% EQU 3XX_ set np=9
+IF %tc%%c4%%c9%%c7% EQU 3XX_ set np=7
+IF %tc%%c8%%c1%%c7% EQU 3XX_ set np=7
 
 goto chk
 
